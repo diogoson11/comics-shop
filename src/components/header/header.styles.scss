@@ -1,0 +1,31 @@
+.header {
+    
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+    align-items: center;
+    .logo-container{
+        margin: 0 20px;
+        display: flex;
+        width: 70px;
+        .logo {
+            padding:15px;
+            height: 70%;
+     
+        }
+    }
+
+    .options{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 20px;
+        .option {
+            margin: 0 20px;
+        }
+    }
+  
+}
